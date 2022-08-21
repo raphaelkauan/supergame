@@ -1,5 +1,7 @@
+const mario = document.querySelector('.mario');
 
+const jump = () => {
+    mario.classList.add('jump');
+}
 
-document.addEventListener('keydown')
-
-
+document.addEventListener('keydown' , jump)
