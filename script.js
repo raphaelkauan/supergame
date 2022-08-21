@@ -4,6 +4,8 @@ const jump = () => {
     mario.classList.add('jump')
 };
 
+
+
 document.addEventListener('keydown', jump);
 
 
